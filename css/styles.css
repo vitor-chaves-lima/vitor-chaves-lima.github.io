@@ -43,7 +43,145 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #fafafa;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.portfolio-division1{
+    height: 600px;
+    overflow:hidden;
+}
+
+.portfolio-division1>.container{
+    position: relative;
+    min-height: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.portfolio-division1>.container>.presentation{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.portfolio-division1>.container>.presentation>h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.portfolio-division1>.container>.presentation>h2{
+    font-weight: 500;
+}
+
+.portfolio-division1>.container>.presentation>p>b{
+    color: #1b5e20;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portfolio-division1>.container>.presentation>a{
+    color: #304ffe;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portfolio-division1>.container>.presentation>a:hover{
+    text-decoration: underline;
+}
+
+.portfolio-division2{
+    overflow:hidden;
+}
+
+.portfolio-division2>.container{
+    height: 100%;
+    background-color: #1976d2;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: end;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.portfolio-division2>.container>h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #fafafa;
+}
+
+.portfolio-division2>.container>h2{
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #fafafa;
+}
+
+.portfolio-division2>.container>.last-projects{
+    margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-division2>.container>.last-projects>.project{
+    text-align: center;
+    margin: 30px;
+}
+
+.portfolio-division2>.container>.last-projects>.project>a>div>h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+
+.portfolio-division2>.container>.last-projects>.project>a:hover>div>h2{
+    text-decoration: underline;
+}
+
+.portfolio-division2>.container>.last-projects>.project>a>div>p{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fafafa;
+    margin-top: 10px;
+}
+
+.portfolio-division2>.container>.last-projects>.project>a:hover>div>p{
+    text-decoration: underline;
+}
+
+.portfolio-division2>.container>.all-projects-link-wrapper{
+    margin-top: 20px;
+}
+
+.portfolio-division2>.container>.all-projects-link-wrapper>a{
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.portfolio-division2>.container>.all-projects-link-wrapper>a:hover{
+    text-decoration: underline;
+}
+
+.portfolio-division>.container3{
+    min-height: 100%;
+    background-color: green;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    color: #fafafa;
+    font-size: 16px;
+    height: 100px;
+    background-color: #212121;
+    text-align: center;
+    line-height: 100px;
 }
