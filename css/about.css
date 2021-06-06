@@ -7,7 +7,7 @@
     position: relative;
     min-height: 100%;
     max-width: 70%;
-    margin: 150px auto;
+    margin: 170px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -28,9 +28,10 @@
 }
 
 .about-division1>.container>.icons{
-    margin: 50px 30px 0 30px;
+    margin: 70px 30px 0 30px;
     float: right;
     font-size: 3em;
+    text-align: center;
 }
 
 .about-division2{
@@ -45,21 +46,15 @@
     text-align: end;
 
     padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .about-division2>.container>h1{
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: #fafafa;
-}
-
-.about-division2>.container>h2{
-    font-weight: 500;
-    font-size: 1.3em;
-    color: #fafafa;
+    margin-right: 30px;
 }
 
 .about-division2>.container>.skills{
@@ -67,26 +62,25 @@
     max-width: 70%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .about-division2>.container>.skills>.type{
+    flex: 1 1 0px;
     text-align: center;
     margin: 30px;
 }
 
-.about-division2>.container>.skills>.type>h1{
-    font-weight: 500;
+.about-division2>.container>.skills>.type>h2{
+    font-weight: bold;
     text-transform: uppercase;
     color: #fafafa;
-    text-decoration: underline;
-    font-size: 1.8em;
 }
 
-.about-division2>.container>.skills>.type>h2{
+.about-division2>.container>.skills>.type>p{
     font-weight: 500;
     text-transform: uppercase;
     color: #fafafa;
-    font-size: 1.3em;
 }
