@@ -1,0 +1,58 @@
+.projects-division{
+    min-height: calc(100vh - 100px - 70px - 30px);
+}
+
+.projects-division>.container>.title{
+    margin: 30px auto 30px auto;
+    max-width: 70%;
+}
+
+.projects-division>.container>.title>h1{
+    font-weight: 500;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects-division>.container>.project-list{
+    margin: 0 auto 30px auto;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.projects-division>.container>.project-list>.project{
+    text-align: center;
+    padding: 30px;
+    flex-grow: 0;
+    flex-basis: 33%;
+}
+
+.projects-division>.container>.project-list>.project>a>div>h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.projects-division>.container>.project-list>.project>a:hover>div>h2{
+    text-decoration: underline;
+}
+
+.projects-division>.container>.project-list>.project>a>div>p{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 10px;
+}
+
+.projects-division>.container>.project-list>.project>a:hover>div>p{
+    text-decoration: underline;
+}
+
+.projects-division>.container>.project-list>.project>a>div>.tecs{
+    font-weight: bold;
+}
